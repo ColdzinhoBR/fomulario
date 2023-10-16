@@ -1,0 +1,31 @@
+body {
+    background-image:url(anime.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #67b0eb;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #27dd3c;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(216, 239, 8, 0.1);
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #32da3a;
+}
